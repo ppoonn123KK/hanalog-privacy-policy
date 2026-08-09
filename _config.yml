@@ -1,0 +1,6 @@
+# privacy-policy.md is an older copy of privacy-policy.html and would compile to
+# the same output path. Exclude the Markdown sources so Jekyll always serves the
+# hand-written HTML — the copies that carry the canonical tags.
+exclude:
+  - README.md
+  - privacy-policy.md
